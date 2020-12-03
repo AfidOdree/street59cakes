@@ -1,0 +1,261 @@
+.navbar-light{
+background-color: aliceblue;
+display:none;
+}
+
+.indexJumbotron{
+  padding-top: 40%;
+  background-image: url("/images/Blackout_delux1_21.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 20%;
+}
+.menuJumbotron{
+  padding-top: 40%;
+  background-image: url("/images/Blackout_regular1.jpg");
+  background-color: black;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.aboutJumbotron{
+  padding-top: 30%;
+  background-image: url("/images/Formans_4_copy.jpg");
+  background-color: black;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: 0% 15%;
+}
+.headerMain{
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    font-family: Self Deception, Regular;
+    font-weight: 50;
+    font-size: 100px; 
+}
+.headerDescription{
+    color:white;
+    margin: auto 0; 
+    font-size: 100%;
+    width: 50%;
+}
+.address{
+    font-size: 70%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+footer{
+    background-color: aliceblue; 
+    margin: 0px auto;
+    padding: 100px 0px 20px 0px;
+}
+.aboutFooter{
+  background-color: aliceblue;
+}
+.top-container{
+    padding-top:5%;
+}
+.sides{
+    margin:auto 0;
+    text-align: center;
+}
+.container {
+    position: relative;
+}
+  
+
+  .text-block {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  }
+  .cc{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  .cc:hover{
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+  .card-img-top{
+      margin: auto 0;
+  }
+  .cardCupCake{
+      border: none;
+  }
+  .cardcarousel{
+      width: 500%;
+      height: 100px;
+  }
+  .imgLogo{
+      margin: auto;
+  }
+  .owner{
+    margin:auto 0;
+    text-align: center;
+  }
+  .sumu{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 230px;
+    padding: 20px;
+  }
+  .sumubackground{
+    padding-top: 115px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+.sumuName{
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 90%;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-instagram{
+  background: linear-gradient(45deg, #405de6,  #5851db, #833ab4, #c13584, #e1306c, #fd1d1d) ;
+  color:white;
+}
+.blackoutSegment{
+ background-image: url("/images/blackoutTrio.jpg");
+ background-size: cover;
+ padding-top: 600px;
+ background-position: 30% 90%;
+ margin: auto;
+}
+.wrapper {
+
+  overflow: hidden;
+  width: 100%;
+}
+
+
+#socials{
+  margin-right: 2%;
+}
+.blackoutSegment-textbox{
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -180%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.carItem{
+  margin: auto;
+}
+
+.custom{
+  background-color:pink;
+}
+.carousalCaption{
+  padding-bottom: 230px;
+  /* margin-left:30%; */
+  /* padding-left: 1%; */
+}
+.headerCustomCake{
+  font-size: 250%;
+}
+.fixed-top.scrolled {
+  background-color:white;
+  transition: background-color 200ms linear;
+}
+.navbar-light.scrolled{
+  display: block;
+  border-bottom: 2px ridge;
+}
+.navbar-dark.scrolled{
+  display:none;
+}
+
+.instaDM {
+  font-size: 20;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+}
+.messageline{
+  display: inline-block;
+}
+.messenger{
+  font-size: 17px;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  background-color: #3B5998;
+}
+
+.orOptionDown{
+  display: none;
+}
+
+
+
+
+  @media only screen and (max-width: 800px) {
+    .text-block {
+      background-color: rgb(0,0,0); 
+      background-color: rgba(0,0,0, 0.4); 
+      color: white;
+      font-weight: bold;
+      /* border: 3px solid #f1f1f1; */
+      position: absolute;
+      top: 12%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+      }
+  }
+  
+  @media only screen and (max-width: 450px){
+    .carItem{
+      width: 100%;
+      height: 450px;
+    }
+    .headerDescription{
+      display: none;
+    }
+    .orOption{
+      display:none;
+    }
+    .orOptionDown{
+      display: block;
+      margin:auto;
+    }
+  }
