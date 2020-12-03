@@ -5,14 +5,14 @@ display:none;
 
 .indexJumbotron{
   padding-top: 40%;
-  background-image: url("/images/Blackout_delux1_21.jpg");
+  background-image: url("https://github.com/AfidOdree/street59cakes/blob/master/images/Blackout_delux1_21.jpg?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 20%;
 }
 .menuJumbotron{
   padding-top: 40%;
-  background-image: url("/images/Blackout_regular1.jpg");
+  background-image: url("https://github.com/AfidOdree/street59cakes/blob/master/images/Blackout_regular1.jpg?raw=true");
   background-color: black;
   background-repeat: no-repeat; 
   background-size: cover;
@@ -20,7 +20,7 @@ display:none;
 }
 .aboutJumbotron{
   padding-top: 30%;
-  background-image: url("/images/Formans_4_copy.jpg");
+  background-image: url("https://github.com/AfidOdree/street59cakes/blob/master/images/Formans_4_copy.jpg?raw=true");
   background-color: black;
   background-repeat: no-repeat; 
   background-size: cover;
@@ -144,7 +144,7 @@ footer{
   color:white;
 }
 .blackoutSegment{
- background-image: url("/images/blackoutTrio.jpg");
+ background-image: url("https://github.com/AfidOdree/street59cakes/blob/master/images/blackoutTrio.jpg?raw=true");
  background-size: cover;
  padding-top: 600px;
  background-position: 30% 90%;
@@ -242,7 +242,7 @@ footer{
       text-align: center;
       }
   }
-  
+
   @media only screen and (max-width: 450px){
     .carItem{
       width: 100%;
